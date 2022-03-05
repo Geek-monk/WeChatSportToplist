@@ -1,4 +1,4 @@
-# mimotion
+# 纸上得来终觉浅，绝知此事要躬行
 [![刷步数-微信运动](https://github.com/Geek-monk/WeChatSportToplist/actions/workflows/run.yml/badge.svg)](https://github.com/Geek-monk/WeChatSportToplist/actions/workflows/run.yml)
 ![同步到Gitee](https://github.com/xunichanghuan/mimotion/actions/workflows/sync2gitee.yml/badge.svg)
 [![GitHub forks](https://img.shields.io/github/forks/xunichanghuan/mimotion?style=flat-square)](https://github.com/xunichanghuan/mimotion/network)
