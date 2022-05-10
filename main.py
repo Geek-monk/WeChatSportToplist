@@ -41,7 +41,7 @@ time_list = [8, 10, 13, 15, 17, 19, 21]
 
 # 设置运行结果推送不推送与上面时间一一对应，如：set_push列表内的第一个值与time_list列表内的第一个时间点对应，该值单独控制该时间点的推送与否（默认表示为21点（就是设置的最后一个时间点）推送其余时间运行不推送结果）
 # 也是改列表内的False不推送，True推送，每个对应上面列表的一个时间点，如果要刷的次数小于7次同样改前几个其它默认
-set_push = [True, True, True, True, True, False, False]
+set_push = [True, True, True, True, False, False, False]
 
 # 最小步数（如果只需要刷步的次数少于7次就将该次数以后的步数全都改成0，如：time_list[3]: 0，表示第五次开始不运行或者直接云函数触发里面不在该时间调用均可（建议用后者））
 min_dict = {time_list[0]: 3000, time_list[1]: 5500, time_list[2]: 10000, time_list[3]: 15000, time_list[4]: 42000, time_list[5]: 0, time_list[6]: 0}
